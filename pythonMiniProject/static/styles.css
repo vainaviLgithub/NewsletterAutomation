@@ -1,0 +1,64 @@
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.image-container {
+    width: 450px; /* Set the width of the container */
+    height: 250px; /* Set the height of the container */
+    overflow: hidden; /* Hide any overflow */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Align items horizontally at the center */
+    align-items: center; /* Align items vertically at the center */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.image-container img {
+    max-width: 100%; /* Make the image fill the container */
+    max-height: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Set border radius for rounded corners */
+}
+
+h1 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+.px-3{
+    background-color: #242124;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.bd-placeholder-img {
+
+     font-size: 1.125rem;
+     text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+body {
+  /* Set background image */
+  background-image: url('../static/bg_img.jpg');
+
+  /* Set background color with transparency */
+  background-color: rgba(255, 255, 255, 0.5); /* 0.25 represents 25% opacity */
+
+  /* Background properties */
+  background-size: cover; /* Adjusts the size of the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  background-position: center; /* Positions the background image at the center */
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+         font-size: 3.5rem;
+    }
+}
